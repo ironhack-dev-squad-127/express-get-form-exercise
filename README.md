@@ -17,10 +17,10 @@ On the route `GET /`, display all students with their name.
 
 Still on the route `GET /`, if the user had selected a nationality, display only the students with the right nationality.
 
-# Iteration 3
+## Iteration 3
 
 Display the right flag next to student name: 🇵🇹🇧🇷🇩🇪🇦🇴
 
 
-# Iteration 4 (BONUS)
+## Iteration 4 (BONUS)
 Add a text input, so that user can search by name.
