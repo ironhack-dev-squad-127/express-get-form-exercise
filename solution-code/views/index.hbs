@@ -1,0 +1,24 @@
+<h1>Ironhack Search</h1>
+
+<form action="/" method="get">
+  <input type="text" name="n" placeholder="Type a name" value="{{typedName}}">
+  <select name="nationality">
+    <option value="">All</option>
+    <option value="br">Brazil</option>
+    <option value="de">Germany</option>
+    <option value="pt">Portugal</option>
+  </select>
+  <button type="submit">Search</button>
+</form>
+
+
+<h2>Result</h2>
+
+<ul>
+{{#each students}}
+  <li>
+    {{this.flag}}
+    {{this.name}}
+  </li>
+{{/each}}
+</ul>
